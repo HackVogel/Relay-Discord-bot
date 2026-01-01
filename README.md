@@ -27,6 +27,14 @@ The RelayBot monitors a predefined set of channels. When a new message from a no
 
 ---
 
+### 7. Configure Relay Channels (Important!)
+
+Use the following slash command directly in Discord:
+-   **Add a channel:** `/relay addchannel` and select the desired channel.
+-   **Remove a channel:** `/relay removechannel` and select the channel to remove.
+
+The bot will only become active in a channel after it has been added with this command.
+
 ## Installation & Configuration
 
 Follow these steps to set up the bot on your own server.
@@ -35,7 +43,9 @@ Follow these steps to set up the bot on your own server.
 -   [Node.js](https://nodejs.org/)
 -   A Discord Bot Account with a Token and Client ID from the [Discord Developer Portal](https://discord.com/developers/applications).
 
+
 ### 2. Clone the Repository
 ```bash
 git clone https://github.com/HackVogel/Relay-Discord-bot.git
 cd Relay-Discord-bot-main
+
